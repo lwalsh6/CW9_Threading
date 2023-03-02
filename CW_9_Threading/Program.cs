@@ -14,15 +14,15 @@ namespace CW_9_Threading
         int dartsThrow;
         int dartsCount;
         Random rand;
-        FindPiThread(int dT)
+        FindPiThread(int dThrow)
         {
             rand = new Random();
-            int dartsThrow = dT;
+            int dartsThrow = dThrow;
 
         }
         public void throwDarts()
         {
-
+            
         }
     }
     
