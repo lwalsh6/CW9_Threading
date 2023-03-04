@@ -14,10 +14,8 @@ namespace CW_9_Threading
         public FindPiThread(int dThrow)
         {
             rand = new Random();
-            int dartsThrow = dThrow;
+            dartsThrow = dThrow;
             dartsCount = 0;
-            Console.WriteLine(dThrow);
-            Console.WriteLine(dartsThrow);
         }
         public int getScore()
         {
